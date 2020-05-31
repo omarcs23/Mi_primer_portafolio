@@ -1,0 +1,94 @@
+ html
+ {
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box--sizing: border-box;
+    box-sizing: border-box;
+ }
+ p{
+     font-family:'Nunito', sans-serif;
+     font-size: 28pt;
+     color: rgba(252, 103, 103, 0.479);
+     text-align: center;
+     
+     
+ }
+ #head{
+    width: 1230px;
+    height:165px;
+    
+    margin-top: top 10px;
+    
+ }
+ body{
+     background: #020101;
+     width: 1000px;
+     padding: 0px;
+     margin: 5px;
+     display: flex;
+     flex-wrap: wrap;
+     min-height: 100vh;
+     
+ }
+ .navegación{
+     width: 1250px;
+     height:196px;
+     margin-left: 0;
+     margin:  auto;
+     background: hsl(0, 33%, 98%);
+ }
+ .navegación ul{
+     height: 155px;
+     list-style: none;
+     text-align: left;
+     margin: auto;
+     background-size: cover;
+     background-image: url(snk.gif);
+ }
+ .menú > li{
+    font-size: 10pt;
+    position: relative; 
+    display: inline-block;
+    margin: 0px;
+    padding: 85px;
+ }
+ .menú > li > a{
+    font-size: 20pt; 
+    display: block;
+     padding:78px 40px;
+     color: #051e42;
+     font-family: monospace;
+     text-decoration: none;
+ }
+
+ .menú li a:hover{
+     color: #e76565da;
+     transition: all .3s;
+ }
+ #contacts img {
+     height:50px;
+     width: 50px;
+     margin-left:7px;
+     margin-right:7px;
+     
+ }
+ #contacts a {
+     text-decoration: none;
+     
+ }
+ #contacts img:hover {
+     opacity: 0.8;
+ }
+ #contacts{
+     text-align: left;
+ }
+ #class footer{
+     align-self: flex-end; 
+     background-color: rgb(243, 220, 220);
+     width: 100px;
+ }
+ 
+ 
+
+ 
